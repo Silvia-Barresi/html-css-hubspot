@@ -33,14 +33,17 @@ body{
 
 .ulleft{
   margin-left: 15%;
-  margin-top: 2.5%;
+  margin-top: 2%;
 }
 
 .acolor{
   border-right: 2px solid #cbd6e2;
-  padding-right: 36%;
+  padding-right: 20%;
 }
 
+.co{
+  padding-top: 1%;
+}
 
 .preheaderright{
   float:right;
@@ -50,7 +53,7 @@ body{
 }
 
 .ulright{
-  margin-right: 10%;
+  margin-right: 8%;
   margin-top: 2.5%;
 }
 
@@ -61,6 +64,12 @@ ul{
 a{
   text-decoration: none;
   color:#33475b;
+}
+
+.glo{
+  width: 22px;
+  height:22px;
+  margin-right:2%;
 }
 
 .lilogin{
@@ -111,7 +120,7 @@ a{
   }
 
 .left{
-  margin-left: 25%;
+  margin-left: 26%;
 }
 
 .logo{
@@ -335,7 +344,7 @@ a{
 
 .littlebox{
   text-align: center;
-  margin-left: 14%;
+  margin-left: 10%;
 }
 
 .boxesup{
@@ -476,12 +485,18 @@ footer{
   font-weight: bold;
 }
 
+#lifooter{
+  font-size: 18px;
+  color: #fff;
+  padding-bottom: 0;
+}
+
 .color{
   color: #fff;
 }
 
 .divfooter{
-  margin: 1% 0 2% 71%;
+  margin: 0 0 2% 71%;
 }
 
 .afooter{
