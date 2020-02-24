@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  color:#33475b;
+}
+
 /*header*/
 
 .preheader::after{
@@ -33,8 +37,8 @@
 }
 
 .acolor{
-  border-right: 1px groove #000;
-  padding-right: 15%;
+  border-right: 2px solid #cbd6e2;
+  padding-right: 36%;
 }
 
 
@@ -56,7 +60,7 @@ ul{
 
 a{
   text-decoration: none;
-  color:#000;
+  color:#33475b;
 }
 
 .lilogin{
@@ -73,11 +77,20 @@ a{
   margin-left: 5%;
 }
 
+.login:hover{
+  background-color: #fbceb1;
+  opacity: 0.5;
+}
+
 .get{
   padding: 8% 6% 8% 6%;
   color: #fff;
   background-color: #ff7a59;
   border-radius: 4px;
+}
+
+.get:hover{
+  opacity: 0.5;
 }
 
 /*secondo blocco header*/
@@ -92,7 +105,7 @@ a{
 
 .second{
     float: left;
-    color:#000;
+    color:#33475b;
     font-size: 18px;
     padding: 2.5% 4% 0 0;
   }
@@ -361,7 +374,7 @@ a{
 }
 
 
-/*facciasorridente*/
+/*smileyface!*/
 
 .smiley{
   background-color:#fff;
@@ -430,7 +443,6 @@ a{
   margin:0 20% 10% 18%;
 }
 
-
 /*footer*/
 
 footer{
@@ -446,16 +458,16 @@ footer{
 }
 
 .footerfloat{
-  margin: 2% 0 2% 15%;
+  margin: 2% 8% 2% 14%;
 }
 
 .footerlist{
   background-color: #33475b;
-  width:21%;
+  width:24%;
   height:auto;
-  padding: 5% 5% 2% 3%;
+  padding: 5% 5% 2% 1.5%;
   float: left;
-  line-height: 2;
+  line-height:2.5;
 }
 
 .lifooter{
@@ -474,11 +486,10 @@ footer{
 
 .afooter{
   border: 2px solid #fff;
-  color:#000;
+  color:#33475b;
   background-color: #fff;
   padding: 2%;
   border-radius: 4px;
-
 }
 
 .icon{
@@ -522,4 +533,8 @@ footer{
 
 .lastright{
   float:right;
+}
+
+a.color:hover{
+  color:#03f4fc;
 }
